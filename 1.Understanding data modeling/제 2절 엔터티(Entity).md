@@ -12,7 +12,7 @@
 
 ## 2. 엔터티와 인스턴스에 대한 내용과 표기법
 
-![Untitled](%E1%84%8C%E1%85%A6%202%E1%84%8C%E1%85%A5%E1%86%AF%20%E1%84%8B%E1%85%A6%E1%86%AB%E1%84%90%E1%85%A5%E1%84%90%E1%85%B5(Entity)%2058272e35bf99455dbcc76bbd43c9e670/Untitled.png)
+<img src ="https://user-images.githubusercontent.com/56623911/131365666-0b86a6ec-b1d5-4511-8cbf-bcc7d2aa28b7.png" width="70%" height="60%">
 
 ## 3. 엔터티의 특징
 
