@@ -20,13 +20,13 @@
 - 한 개의 엔터티는 두 개 이상의 속성을 갖는다.
 - 한 개의 속성은 한 개의 속성값을 갖는다.
 
-![Untitled](%E1%84%8C%E1%85%A6%203%E1%84%8C%E1%85%A5%E1%86%AF%20%E1%84%89%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC(Attribute)%2081f199b92cad4d78829dd6707769fa09/Untitled.png)
+<img src = "https://user-images.githubusercontent.com/56623911/131366675-64714e4d-1994-4e17-acd8-7c0c4c765078.png" width="80%" height="70%">
 
 2) 속성의 표기법
 
 속성의 표기법은 엔터티 내에 이름을 포함하여 표현하면 된다.
 
-![Untitled](%E1%84%8C%E1%85%A6%203%E1%84%8C%E1%85%A5%E1%86%AF%20%E1%84%89%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC(Attribute)%2081f199b92cad4d78829dd6707769fa09/Untitled%201.png)
+<img src ="https://user-images.githubusercontent.com/56623911/131366705-3bb8eed1-dc29-48c3-ad7f-fe2658841f85.png"  width="80%" height="70%">
 
 ## 3. 속성의 특징
 
@@ -57,7 +57,7 @@
 
 엔터티를 식별할 수 있는 속성을 PR(Primary Key)속성, 다른 엔터티와의 관계에서 포함된 속성을 FK(Foreign Key)속성, 엔터티에 포함되어 있고 PK, FK에 포함되지 않은 속성을 일반속성이라 한다.
 
-![Untitled](%E1%84%8C%E1%85%A6%203%E1%84%8C%E1%85%A5%E1%86%AF%20%E1%84%89%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC(Attribute)%2081f199b92cad4d78829dd6707769fa09/Untitled%202.png)
+<img src ="https://user-images.githubusercontent.com/56623911/131366722-5cc28e93-a5e8-416f-b7ed-7d6b68dc05e0.png"  width="80%" height="70%">
 
 ## 5. 도메인(Domain)
 
