@@ -4,7 +4,8 @@
 
 여러 개의 집합체를 담고 있는 하나의 통에서 각각을 구분할 수 있는 논리적인 이름이 있어야 한다. 이 구분자를 **식별자(Identifier)**라고 한다. **식별자**란 하나의 엔터티에 구성되어 있는 여러 개의 속성 중에 **엔터티를 대표할 수 있는 속성을 의미**하며 하나의 엔터티는 반드시 하나의 유일한 식별자가 존재해야 한다. 보통 식별자와 키(Key)를 동일하게 생각하는 경우가 있는데 식별자라는 용어는 업무적으로 구분이 되는 정보를 생각할 수 있으므로 논리 데이터 모델링 단계에서 사용하고 키는 데이터베이스 테이블에 접근을 위한 매개체로서 물리 데이터 모델링 단계에서 사용한다.
 
-![Untitled](%E1%84%8C%E1%85%A6%205%E1%84%8C%E1%85%A5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%86%A8%E1%84%87%E1%85%A7%E1%86%AF%E1%84%8C%E1%85%A1(Identifiers)%208ce8057970944e5a80348dad6b3eef25/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/56623911/139537007-5db77828-2bcd-4eb5-8a79-b2f2aa0d846d.png)
+
 
 ## 2. 식별자의 특징
 
@@ -17,13 +18,13 @@
 
 ### 1) 식별자 분류
 
-![Untitled](https://user-images.githubusercontent.com/56623911/139536817-1c8c9c8a-c1fd-4d3c-9fd0-8de776225c0a.png)
+
+![Untitled 1](https://user-images.githubusercontent.com/56623911/139537011-90468db3-46ea-47fe-b774-163a6f837549.png)
 
 
 ### 2) 식별자 표기법
 
-![Untitled 1](https://user-images.githubusercontent.com/56623911/139536820-0072218f-a831-4f7e-9f62-836525d9919a.png)
-
+![Untitled 2](https://user-images.githubusercontent.com/56623911/139537017-ac1490ca-2782-4da6-a8cc-75ada5ecd257.png)
 
 ## 4. 주식별자 도출기준
 
@@ -36,16 +37,17 @@
 
 ### 1) 해당 업무에서 자주 이용되는 속성을 주식별자로 지정하도록 함
 
-![Untitled 2](https://user-images.githubusercontent.com/56623911/139536825-71a5a2d6-e335-4fd4-9eb9-5f6bcad57d47.png)
+![Untitled 3](https://user-images.githubusercontent.com/56623911/139537019-7fffbbd9-596f-4f88-8c48-bfa5bdb6b0d5.png)
 
 
 ### 2) 명칭, 내역 등과 같이 이름으로 기술되는 것은 피함
 
-![Untitled 3](https://user-images.githubusercontent.com/56623911/139536830-1cd1ad87-818e-45f8-ac5f-a52eb861f68a.png)
+![Untitled 4](https://user-images.githubusercontent.com/56623911/139537023-85b71a2f-838a-4a62-b872-bc43bc4d1d95.png)
 
 ## 3) 속성의 수가 많아지지 않도록 함
 
-![Untitled 4](https://user-images.githubusercontent.com/56623911/139536832-cb13eb03-ce48-4265-9b7c-aed46029f105.png)
+
+![Untitled 5](https://user-images.githubusercontent.com/56623911/139537030-82e8cd1b-5366-4c99-99cd-58681113bf92.png)
 
 ## 5.식별자관계와 비식별자 관계의 결정
 
@@ -55,7 +57,7 @@
 
 관계와 속성을 정의하고 주식별자를 정의하면 논리적인 관계에 의해 자연스럽게 외부식별자가 도출되지만 중요하게 고려해야 할 사항이 있다. 엔터티에 주식별자가 지정되고 엔터티간 관계를 연결하면 부모쪽의 주식별자를 자식엔터티의 속성으로 내려 보낸다. 이 때 자식엔터티에서 부모엔터티로부터 받은 외부식별자를 자신의 주식별자로 이용할 것인지 또는 부모와 연결이 되는 속성으로만 이용할 것인지를 결정해야 한다.
 
-![Untitled 5](https://user-images.githubusercontent.com/56623911/139536837-7d88d55e-3bfc-41ac-a2dd-4d1c9e1a174b.png)
+![Untitled 6](https://user-images.githubusercontent.com/56623911/139537047-636e47f5-5a17-4054-a2de-51073ce02916.png)
 
 ### 2) 식별자관계
 
@@ -63,7 +65,7 @@
 
 1:1 관계에서 이와 같이 나타나며 주식별자가 동일하며 엔터티 통합의 대상이 됨을 알 수 있다. 이와 같이 자식엔터티의 주식별자로 부모의 주식별자가 상속이 되는 경우를 식별자 관계(Identifying Relationship)라고 지칭한다.
 
-![Untitled 6](https://user-images.githubusercontent.com/56623911/139536841-c6905d2c-6466-4fc4-85ee-2c35503ef263.png)
+![Untitled 7](https://user-images.githubusercontent.com/56623911/139537058-7236dbb3-7c43-4e66-86ee-3dfc0197160d.png)
 
 ### 3) 비식별자관계
 
@@ -73,18 +75,19 @@
 - 엔터티별로 데이터의 생명주기(Life Cycle)를 다르게 관리할 경우이다. 예를 들어 부모엔터티에 인스턴스가 자식의 엔터티와 관계를 가지고 있었지만 자식만 남겨두고 먼저 소멸될 수 있는 경우가 이에 해당된다. 이에 대한 방안으로 물리데이터베이스 생성 시 Foreign Key를 연결하지 않는 임시적인 방법을 사용하기도 하지만 **데이터 모델상에서 관계를 비식별자관계로 조정하는 것이 가장 좋은 방법이다.**
 - 여러 개의 엔터티가 하나의 엔터티로 통합되어 표현되었는데 각각의 엔터티가 별도의 관계를 가질 때이며 이에 해당된다.
 
-![Untitled 7](https://user-images.githubusercontent.com/56623911/139536844-c5b9b07c-91b8-4f5d-9e07-fa255833988b.png)
+![Untitled 8](https://user-images.githubusercontent.com/56623911/139537072-e580636c-d19e-4f55-9ec7-52262c402a13.png)
 
 - 자식엔터티에 주식별자로 사용하여도 되지만 자식엔터티에서 별도의 주식별자를 생성하는 것이 더 유리하다고 판단될 때 비식별자 관계에 의한 외부식별자로 표현한다.
-- 
-![Untitled 8](https://user-images.githubusercontent.com/56623911/139536851-e7b8152e-7b2d-48c7-a82c-5a9c1138b2aa.png)
+
+
+![Untitled 9](https://user-images.githubusercontent.com/56623911/139537092-ee771e2f-da36-4d39-9541-0f04aaf70e09.png)
 
 
 ## 4.식별자 관계로만 설정할 경우의 문제점
 
 단지 식별자관계와 비식별자에 대한 설정을 고려하지 않은 것이 개발의 복잡성을 증가시키는 요인이 될까?
 
-![Untitled 9](https://user-images.githubusercontent.com/56623911/139536880-82df160b-e246-43b0-b5d1-e0a88f4f9f7d.png)
+![Untitled 10](https://user-images.githubusercontent.com/56623911/139537103-db82112c-d04c-42a9-95b1-b332ecafdd95.png)
 
 ## 5.비식별자 관계로만 설정할 경우의 문제점
 
@@ -93,9 +96,8 @@
 이런 속성은 부모엔터티를 조회할 때도 당연히 쓰이지만 자식엔터티의 데이터를 조회할 때도 해당 조건이 조회의 조건으로 걸리는 경우가 다수이다.
 
 그런데 데이터 모델링을 전개할 때 각 엔터티 간의 관계를 비식별자 관계로 설정하면 이런 유형의 속성이 자식엔터티로 상속이 되지 않아 자식엔터티에서 데이터를 처리할 떄 쓸데없이 부모엔터티까지 찾아가야 하는 경우가 발생된다.
+![Untitled 11](https://user-images.githubusercontent.com/56623911/139537132-e2b37d0b-54ee-4cdc-8a1b-eb7170cfa8ef.png)
 
-![Untitled 10](https://user-images.githubusercontent.com/56623911/139536890-075e35bb-39b8-450f-b3f2-32a73f6d148c.png)
+![Untitled 12](https://user-images.githubusercontent.com/56623911/139537142-1804fd7a-b000-4c5d-962a-5fccfe720642.png)
 
-![Untitled 11](https://user-images.githubusercontent.com/56623911/139536905-1538332c-acc2-4742-aec2-d932674b886d.png)
-
-![Untitled 12](https://user-images.githubusercontent.com/56623911/139536909-1208c24b-dce5-480b-8086-6798b3c2764e.png)
+![Untitled 13](https://user-images.githubusercontent.com/56623911/139537150-8deaa175-f983-441c-a04e-88124b265898.png)
